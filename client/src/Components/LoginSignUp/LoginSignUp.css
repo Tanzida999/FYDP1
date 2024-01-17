@@ -31,9 +31,23 @@
     flex-direction: row;
     gap: 30px;
 }
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: #eaeaea;
+    border-radius: 6px;
+}
 .img1 {
     width: 20px; /* Set your desired width */
     height: 20px; /* Set your desired height */
     margin-right: 10px; /* Adjust as needed */
   }
-  
+
+
+@media screen and (max-width:600px) 
+{
+    .inputs{
+        flex-direction: column;
+    }
+}
