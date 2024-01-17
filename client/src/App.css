@@ -9,7 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  height: 100vh;
+  background: linear-gradient(#2A00B7 ,#420063);
   font-family: "Sansita Swashed", cursive;
 }
 
