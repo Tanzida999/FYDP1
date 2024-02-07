@@ -48,3 +48,4 @@ contract HealthInsurance{
         return "Amount debited from your insurance";
     }
 }
+    
