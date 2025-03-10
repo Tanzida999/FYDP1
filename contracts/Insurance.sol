@@ -7,7 +7,7 @@ contract Insurance{
     mapping(address => uint256) public claims;//Tract of the claims
     address payable owner;//Who deploy the contract
     uint256 public totalPremium;
-    constructor() public{ 
+    constructor() { 
         owner = payable(msg.sender);
     }
 

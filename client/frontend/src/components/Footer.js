@@ -1,5 +1,5 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -7,10 +7,10 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <p>© 2024 Maruf Ur Rahman.</p>
+            <p>© All Rights Reserved</p>
           </Col>
           <Col md={6} className="text-md-end">
-            <p>Contact: mrahman193019@bscse.uiu.ac.bd</p>
+            <p>Contact:uiu.ac.bd</p>
           </Col>
         </Row>
       </Container>
