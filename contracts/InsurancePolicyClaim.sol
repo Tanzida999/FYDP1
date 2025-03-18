@@ -41,7 +41,7 @@ contract InsurancePolicyClaim{
     function claimInsurance(address _uid,uint _insuranceAmountUsed) public returns (string memory){
         require(!doctormapping[msg.sender]);
         if(personmapping[_uid].insuranceAmount < _insuranceAmountUsed){
-            revert();
+revert("Insufficient insurance amount");
         }
         
         personmapping[_uid].insuranceAmount -= _insuranceAmountUsed;
