@@ -1,4 +1,4 @@
-var HealthInsurance= artifacts.require("./HealthInsurance.sol");
+var HealthInsurance = artifacts.require("./InsurancePolicyClaim.sol");
 
 module.exports = function (deployer) {
   deployer.deploy(HealthInsurance);

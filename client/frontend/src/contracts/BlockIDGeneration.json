@@ -8876,12 +8876,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x283C4A6650bFB425feEaB89b93d4f273Ef05d700",
-      "transactionHash": "0x7a238592d86822bc732b75521007660171fb1a04541591824a15fe37d3b35b88"
+      "address": "0xAc44a1d4c3297B862082359A5C5b7D245F9CB7cE",
+      "transactionHash": "0xe1f19941eb1a667e5145735f74e22a535ca3697241b1b8c0437a6f226bdb74da"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-03-10T06:46:30.583Z",
+  "updatedAt": "2025-03-18T16:37:45.769Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
